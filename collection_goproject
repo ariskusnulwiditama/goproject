@@ -1,0 +1,128 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "goproject",
+    "collectionId": "96490323-1332-45c6-9bd8-558ef8013e5a",
+    "dateExported": "2024-06-28T00:15:29.854Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "0562e1af-f64d-42fe-881c-47ed504b5c1c",
+            "colId": "96490323-1332-45c6-9bd8-558ef8013e5a",
+            "containerId": "",
+            "name": "create transaction",
+            "url": "http://localhost:8080/transaction",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-06-27T23:57:05.141Z",
+            "modified": "2024-06-27T23:57:05.141Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"konsumen_id\": 1,\n    \"amount\": 100000\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "ba160db4-c31a-4585-84fa-e0c7d7c67471",
+            "colId": "96490323-1332-45c6-9bd8-558ef8013e5a",
+            "containerId": "",
+            "name": "create konsumen",
+            "url": "http://localhost:8080/konsumen",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-06-27T23:57:37.018Z",
+            "modified": "2024-06-27T23:57:37.018Z",
+            "headers": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "nik",
+                        "value": "4326543"
+                    },
+                    {
+                        "name": "full_name",
+                        "value": "John Doe"
+                    },
+                    {
+                        "name": "legal_name",
+                        "value": "John Doe"
+                    },
+                    {
+                        "name": "tempat_lahir",
+                        "value": "Jakarta"
+                    },
+                    {
+                        "name": "tanggal_lahir",
+                        "value": "1990-01-01"
+                    },
+                    {
+                        "name": "gaji",
+                        "value": "5000000.00"
+                    }
+                ],
+                "files": [
+                    {
+                        "name": "foto_ktp",
+                        "value": "c:\\Users\\arisk\\Downloads\\passfoto (2).jpg"
+                    },
+                    {
+                        "name": "foto_selfie",
+                        "value": "c:\\Users\\arisk\\Downloads\\laila.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "71350fbb-2cc2-4ca7-9d9d-9c1fa510f64c",
+            "colId": "96490323-1332-45c6-9bd8-558ef8013e5a",
+            "containerId": "",
+            "name": "get transaction by id",
+            "url": "http://localhost:8080/transaction/1",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-06-28T00:01:20.938Z",
+            "modified": "2024-06-28T00:01:20.938Z",
+            "headers": []
+        },
+        {
+            "_id": "8daae121-0bc5-4dfd-b2d8-4f9141b37d86",
+            "colId": "96490323-1332-45c6-9bd8-558ef8013e5a",
+            "containerId": "",
+            "name": "get all transaction",
+            "url": "http://localhost:8080/transaction",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-06-28T00:02:39.114Z",
+            "modified": "2024-06-28T00:02:39.114Z",
+            "headers": []
+        },
+        {
+            "_id": "eb77525f-66e6-4c29-b321-46bf0be4d1d7",
+            "colId": "96490323-1332-45c6-9bd8-558ef8013e5a",
+            "containerId": "",
+            "name": "get all konsumen",
+            "url": "http://localhost:8080/konsumen",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-06-28T00:04:27.050Z",
+            "modified": "2024-06-28T00:04:27.050Z",
+            "headers": []
+        },
+        {
+            "_id": "ba110a85-fbb6-4e77-a695-3a5568f33ddc",
+            "colId": "96490323-1332-45c6-9bd8-558ef8013e5a",
+            "containerId": "",
+            "name": "get konsumen by id",
+            "url": "http://localhost:8080/konsumen/1",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-06-28T00:04:53.927Z",
+            "modified": "2024-06-28T00:04:53.927Z",
+            "headers": []
+        }
+    ],
+    "ref": "0TgtXmCqxRmCrbr3xeEWT0rLHf6hk3L-PfSwybGxAIvlRIBKSkmsu1qLCZaY5LGe2EiPN2gxonVT7gF0v3KpBw"
+}
